@@ -3,6 +3,11 @@
 ## Structure
 The app is divided in 2 apps; an express server which is in charge of serving static content and of requesting the resources from an external API (swapi), and a React application which will be in charge of rendering our app and requesting the resources from our express server.
 
+## Setup instructions
+In the root folder run npm install.
+In the client folder run npm install.
+in the root folder run npm start.
+
 ## Client
 The client API has 3 components: App, Characters, Character.
 **App**: App will set its state with one property which is characters (array). When App gets mounted in the DOM it will request a list of characters from the express server.
